@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * Creates an Activity that hosts all of the fragments 
+ * Creates an Activity with onCreate called on superclass and the content view of the activity with the corresponding layout file resource.
  */
 class MainActivity : AppCompatActivity() {
     private lateinit var todoAdapter: TodoAdapter
